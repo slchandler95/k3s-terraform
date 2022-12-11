@@ -11,6 +11,7 @@ terraform {
 variable "xo_host" {
   description = "Xen Orchestra IP/URL"
   type        = string
+  sensitive   = true
 }
 
 variable "xo_user" {
